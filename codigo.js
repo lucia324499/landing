@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // 6. Creamos el nuevo asunto del correo, reemplazando el marcador '%{nombre}'
             const nuevoAsunto = subjectInput.value.replace('%{nombre}', nombreInput.value);
             
-            // 7. Asignamos el nuevo valor al campo 'subject'
+            // 7. Asignamos el nuevo valor al campo 'subject' hola estoy probando
             subjectInput.value = nuevoAsunto;
         }
         
